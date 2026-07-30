@@ -53,7 +53,7 @@
   {:condition (fn [msg _] (= msg "spoilerformat"))
    :result (fn [_ _] "Please add spoiler tags to spoily things;
    \\|\\| your spoiler here \\|\\|
-   Those are pipe symbols, found in the 1 key on many keyboards")})
+   Those are pipe symbols, found in the 1 key on Spanish keyboards")})
 
 (def strike-format
   {:condition (fn [msg _] (= msg "strikeformat"))
